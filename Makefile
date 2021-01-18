@@ -1,5 +1,5 @@
 NAME		= miniRT
-CC				= clang -Wall -Werror -Wextra
+CC				= clang -Wall -Werror -Wextra -Ofast -O3
 RM				= rm -rf
 
 MLX_PATH		= ./libs/minilibx-linux/
