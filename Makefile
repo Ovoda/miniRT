@@ -70,8 +70,8 @@ renice:
 	make clean
 
 clean:
-	@$(RM) $(OBJS)
-	$(info objs files deleted)
+	make clean -C $(LIBC_PATH)
+	$(RM) $(OBJS)
 
 fclean: clean
 	@$(RM) $(NAME)
